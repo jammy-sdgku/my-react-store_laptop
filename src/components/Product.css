@@ -1,0 +1,46 @@
+  /*====================
+PRODUCT LIST
+======================*/
+  .product-list {
+      width: 100%;
+  }
+
+  .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 1rem 0;
+  }
+
+  .product-list--loading,
+  .product-list--error,
+  .product-list--empty {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 400px;
+      text-align: center;
+  }
+
+  .loading-message,
+  .error-message,
+  .empty-message {
+      max-width: 400px;
+      padding: 2rem;
+  }
+
+  .loading-message .loading-spinner {
+      margin: 0 auto 1rem;
+  }
+
+  .error-message h3,
+  .empty-message h3 {
+      color: #333;
+      margin-bottom: 1rem;
+  }
+
+  .error-message p,
+  .empty-message p {
+      color: #666;
+      margin-bottom: 1.5rem;
+  }

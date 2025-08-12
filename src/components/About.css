@@ -1,0 +1,19 @@
+.about {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 20px;
+}
+
+.about h1,
+.about h3,
+.about p {
+    color: #333;
+    text-align: center;
+}
+
+.aboutImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border-radius: 20px;
+}
