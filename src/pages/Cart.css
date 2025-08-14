@@ -1,0 +1,20 @@
+.cart {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.cart h1 {
+    color: #333;
+    text-align: center;
+}
+
+.pic1 {
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.cartImage {
+    width: 100px;
+}
