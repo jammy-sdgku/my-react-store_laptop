@@ -1,3 +1,5 @@
+import "./footer.css";
+
 function Footer() {
   return (
     <footer className="footer">
@@ -7,7 +9,6 @@ function Footer() {
           style={{
             display: "flex",
             justifyContent: "center",
-            background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
           }}
         >
           <div

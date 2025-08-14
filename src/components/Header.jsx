@@ -8,15 +8,6 @@ function Header() {
           <p>Discover incredible products at unbeatable prices</p>
         </div>
         <div className="header-actions">
-          {/*<div className="search-bar">
-            <input
-              type="text"
-              placeholder="Search products..."
-              className="search-input"
-            />
-            <button className="search-button">🔍</button>
-          </div>
-          */}
           <br></br>
         </div>
       </div>

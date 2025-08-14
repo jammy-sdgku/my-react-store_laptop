@@ -2,26 +2,34 @@
     padding: 20px;
 }
 
-.contact .form {
+.contactForm {
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
     border: 1px solid #6a6a6a;
-    border-radius: 6px;
-    padding: 10px;
+    border-radius: 20px;
+    padding: 1.25em;
     background-color: #e4e7eb;
     text-align: left;
 }
 
 .form-control {
+    display: flex;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
+    margin-left: 1.25em;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    vertical-align: middle;
+    width: 90%;
+
 }
 
-.contact .form .controls {
-    padding-top: 12px;
+#form-btn {
+    padding-top: 1.25em;
+
     text-align: center;
+    align-items: center;
+    margin: 1.25em;
 }
