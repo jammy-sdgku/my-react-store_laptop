@@ -1,0 +1,46 @@
+/*Admin page styling*/
+
+.admin-page {
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.parent {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.parent-section {
+    flex: 1;
+}
+
+.discounts {
+    border: 1px solid #dadada;
+    border-radius: 4px;
+    padding: 10px;
+    max-width: 600px;
+    text-align: center;
+    align-items: center;
+}
+
+.discounts .form-field {
+    display: block;
+}
+
+.products {
+    border: 1px solid #dadada;
+    border-radius: 4px;
+    padding: 10px;
+    max-width: 600px;
+    text-align: center;
+    align-items: center;
+}
+
+.products .form-field {
+    display: block;
+}

@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Cart from "./pages/Cart";
 import Contact from "./pages/Contact";
+import Admin from "./pages/Admin"; // Importing the Admin component
 //import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 //import DataServiceTest from './components/DataServiceTest';
@@ -27,6 +28,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/admin" element={<Admin />} />
           {/* Add more routes as needed */}
         </Routes>
 
