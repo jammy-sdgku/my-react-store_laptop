@@ -10,7 +10,7 @@ FOOTER STYLES
 
   .footer {
       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      color: white;
+      color: #FFFDD0;
       padding: 3rem 0 1rem;
       margin-top: auto;
   }
@@ -32,7 +32,7 @@ FOOTER STYLES
   .footer-section h3,
   .footer-section h4 {
       margin-bottom: 1rem;
-      color: #ecf0f1;
+      color: #FFFDD0;
   }
 
   .footer-section p {

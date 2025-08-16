@@ -1,5 +1,6 @@
 .contact {
     padding: 20px;
+    text-align: center;
 }
 
 .contactForm {
@@ -10,7 +11,7 @@
     border-radius: 20px;
     padding: 1.25em;
     background-color: #e4e7eb;
-    text-align: left;
+    text-align: center;
 }
 
 .form-control {
@@ -26,9 +27,16 @@
 
 }
 
+.form-label {
+    text-align: left;
+}
+
+.mb-3 {
+    text-align: left;
+}
+
 #form-btn {
     padding-top: 1.25em;
-
     text-align: center;
     align-items: center;
     margin: 1.25em;

@@ -4,6 +4,11 @@ import "bootstrap";
 function Contact() {
   return (
     <div className="contact">
+      <h1>Contact Us</h1>
+      <p>
+        We would love to hear from you! <br></br>Please fill out the form below
+        and we will get back to you as soon as possible.
+      </p>
       <div className="contactForm">
         <div class="mb-3">
           <label for="name" class="form-label">

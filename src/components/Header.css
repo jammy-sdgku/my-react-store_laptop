@@ -1,0 +1,14 @@
+/* Header.css
+ * Styles for the header component
+ */
+
+.header-container {
+    text-align: center;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #FFFDD0;
+    border: 1px groove #FFFDD0;
+}
+
+.header h2 {
+    margin: 0;
+}

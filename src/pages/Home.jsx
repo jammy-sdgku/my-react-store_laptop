@@ -2,11 +2,15 @@ import "./Home.css";
 
 function Home() {
   return (
-    <div className="home">
+    <div className="hero-section">
       <h1>Welcome to James' Online Store</h1>
-      <div className="pic1">
-        <h5>This is picture 1</h5>
-        <img className="homeImage" src="/mouse.jpeg" alt="Picture 1" />
+      <p className="hero-subtitle">
+        Discover amazing products at incredible prices. Your satisfaction is our
+        top priority!
+      </p>
+      <div className="hero-actions">
+        <button className="btn btn-primary">Shop Now</button>
+        <button className="btn btn-secondary">Learn More</button>
       </div>
     </div>
   );

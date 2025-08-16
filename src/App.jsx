@@ -34,7 +34,7 @@ function App() {
 
         <main className="main-content">
           {/*<Catalog loaded here>*/}
-
+          {/*
           <div className="hero-section">
             <h1>Welcome to James' Online Store</h1>
             <p className="hero-subtitle">
@@ -46,6 +46,7 @@ function App() {
               <button className="btn btn-secondary">Learn More</button>
             </div>
           </div>
+*/}
           <div className="features-section">
             <h2>Why Choose Us?</h2>
             <div className="features-grid">
