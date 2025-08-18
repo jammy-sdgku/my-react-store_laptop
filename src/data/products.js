@@ -6,7 +6,7 @@ export const PRODUCTS_DATA = [
     title: "Wireless Bluetooth Headphones",
     price: 79.99,
     originalPrice: 99.99,
-    image: './public/bluetoothHeadphones.jpeg',
+    image: "./public/bluetoothHeadphones.jpeg",
     description:
       "Premium wireless headphones with active noise cancellation,30-hour battery life, and crystal-clear audio quality.",
     category: CATEGORIES.ELECTRONICS,
@@ -138,7 +138,7 @@ export const PRODUCTS_DATA = [
     title: "Web Development Bootcamp",
     price: 29.99,
     originalPrice: 39.99,
-    image: `public/webDev.jpeg`,
+    image: `public/webDevelopment.jpeg`,
     description:
       "Complete web development course covering HTML, CSS, JavaScript, React, Node.js, and database integration.",
     category: CATEGORIES.BOOKS,
