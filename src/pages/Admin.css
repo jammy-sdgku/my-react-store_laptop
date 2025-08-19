@@ -47,3 +47,8 @@
 .products .form-field {
     display: block;
 }
+
+.productList li,
+.couponList li {
+    list-style-type: none;
+}

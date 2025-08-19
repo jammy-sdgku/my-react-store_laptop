@@ -6,7 +6,7 @@ export const PRODUCTS_DATA = [
     title: "Wireless Bluetooth Headphones",
     price: 79.99,
     originalPrice: 99.99,
-    image: "./public/bluetoothHeadphones.jpeg",
+    image: "/bluetoothHeadphones.jpeg",
     description:
       "Premium wireless headphones with active noise cancellation,30-hour battery life, and crystal-clear audio quality.",
     category: CATEGORIES.ELECTRONICS,
@@ -27,7 +27,7 @@ export const PRODUCTS_DATA = [
     title: "Smart Fitness Watch",
     price: 199.99,
     originalPrice: 249.99,
-    image: `public/smartWatch.jpeg`,
+    image: `/smartWatch.jpeg`,
     description:
       "Advanced fitness tracker with heart rate monitoring, GPS, sleep tracking, and 7-day battery life.",
     category: CATEGORIES.ELECTRONICS,
@@ -43,7 +43,7 @@ export const PRODUCTS_DATA = [
     title: "React: The Complete Developer Guide",
     price: 34.99,
     originalPrice: 44.99,
-    image: `public/react.jpeg`,
+    image: `/react.jpeg`,
     description:
       "Comprehensive guide to mastering React development from basics to advanced concepts, including hooks, context, and testing.",
     category: CATEGORIES.BOOKS,
@@ -64,7 +64,7 @@ export const PRODUCTS_DATA = [
     title: "Mechanical Gaming Keyboard",
     price: 129.99,
     originalPrice: 159.99,
-    image: `public/gamingKeyboard.jpeg`,
+    image: `/gamingKeyboard.jpeg`,
     description:
       "RGB mechanical keyboard with Cherry MX switches, customizable back lighting, and programmable keys.",
     category: CATEGORIES.GAMING,
@@ -85,7 +85,7 @@ export const PRODUCTS_DATA = [
     title: "JavaScript: The Definitive Guide",
     price: 39.99,
     originalPrice: 49.99,
-    image: `public/javascript.jpeg`,
+    image: `/javascript.jpeg`,
     description:
       "The authoritative guide to JavaScript programming, covering ES6+, async programming, and modern development practices.",
     category: CATEGORIES.BOOKS,
@@ -106,7 +106,7 @@ export const PRODUCTS_DATA = [
     title: "Wireless Gaming Mouse",
     price: 69.99,
     originalPrice: 89.99,
-    image: `public/mouse.jpeg`,
+    image: `/mouse.jpeg`,
     description:
       "High-precision wireless gaming mouse with 16000 DPI sensor, customizable buttons, and 70-hour battery life.",
     category: CATEGORIES.GAMING,
@@ -122,7 +122,7 @@ export const PRODUCTS_DATA = [
     title: "Portable Bluetooth Speaker",
     price: 89.99,
     originalPrice: 119.99,
-    image: `public/bluetoothSpeaker.jpeg`,
+    image: `/bluetoothSpeaker.jpeg`,
     description:
       "Waterproof portable speaker with 360-degree sound, 24-hour battery, and voice assistant integration.",
     category: CATEGORIES.ELECTRONICS,
@@ -138,7 +138,7 @@ export const PRODUCTS_DATA = [
     title: "Web Development Bootcamp",
     price: 29.99,
     originalPrice: 39.99,
-    image: `public/webDevelopment.jpeg`,
+    image: `/webdevelopment.jpeg`,
     description:
       "Complete web development course covering HTML, CSS, JavaScript, React, Node.js, and database integration.",
     category: CATEGORIES.BOOKS,

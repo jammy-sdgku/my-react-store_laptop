@@ -2,6 +2,8 @@ import { useState } from "react";
 import "./Admin.css";
 
 function Admin() {
+  const [couponsList, setCouponsList] = useState([]);
+  const [productsList, setProductsList] = useState([]);
   const [coupon, setCoupon] = useState({
     code: "",
     discount: "",
@@ -15,6 +17,9 @@ function Admin() {
 
   function saveCoupon() {
     console.log(coupon);
+    let copy = [...couponsList];
+    copy.push(coupon);
+    setCouponsList(copy);
   }
 
   function handleEvent(e) {
@@ -32,6 +37,9 @@ function Admin() {
 
   function saveProduct() {
     console.log(product);
+    let copy = [...productsList];
+    copy.push(product);
+    setProductsList(copy);
   }
 
   function handleProductEvent(e) {
@@ -39,7 +47,11 @@ function Admin() {
     const name = e.target.name;
 
     let copy = { ...product };
-    copy[name] = value;
+    if (name == "price") {
+      copy[name] = Number(value);
+    } else {
+      copy[name] = value;
+    }
     setProduct(copy);
   }
 
@@ -53,6 +65,7 @@ function Admin() {
         </p>
       </div>
       <div className="parent">
+        {/*products*/}
         <section>
           <div className="products">
             <div className="form-field">
@@ -87,8 +100,20 @@ function Admin() {
               Save Products
             </button>
           </div>
+          <div>
+            <h4>Your saved products</h4>
+            <div className="productList">
+              {productsList.map((prod) => (
+                <ul>
+                  <li key={prod.title}>
+                    {prod.title} - ${prod.price} - {prod.image}
+                  </li>
+                </ul>
+              ))}
+            </div>
+          </div>
         </section>
-
+        {/*discounts*/}
         <section>
           <div className="discounts">
             <div className="form-field">
@@ -113,6 +138,18 @@ function Admin() {
             <button className="btn btn-sm btn-primary" onClick={saveCoupon}>
               Save Coupons
             </button>
+          </div>
+          <div>
+            <h4>Your saved discounts</h4>
+            <div className="couponList">
+              {couponsList.map((cp) => (
+                <ul>
+                  <li key={cp.code}>
+                    {cp.code} - ${cp.discount}
+                  </li>
+                </ul>
+              ))}
+            </div>
           </div>
         </section>
       </div>
