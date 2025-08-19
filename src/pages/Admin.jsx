@@ -106,7 +106,7 @@ function Admin() {
               {productsList.map((prod) => (
                 <ul>
                   <li key={prod.title}>
-                    {prod.title} - ${prod.price} - {prod.image}
+                    {prod.title} - ${prod.price}
                   </li>
                 </ul>
               ))}
