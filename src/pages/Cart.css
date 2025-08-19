@@ -9,12 +9,16 @@
 }
 
 .pic1 {
-    display: flex;
+    display: block;
     width: 100%;
     height: auto;
     border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .cartImage {
     width: 100px;
+
 }

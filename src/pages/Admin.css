@@ -52,3 +52,9 @@
 .couponList li {
     list-style-type: none;
 }
+
+.products .form-label,
+.discounts .form-label {
+    text-align: left;
+    display: block;
+}
